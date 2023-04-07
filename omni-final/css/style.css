@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+.header_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+  background-color: #fdf2e9;
+}
+
+.logo_img {
+  height: 25px;
+}
+
+.nav_ul_list {
+  font-size: 18px;
+  font-weight: bold;
+  width: 650px;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav_anchor {
+  text-decoration: none;
+}
+.nav_anchor:visited {
+  color: #e67e22;
+}
+.nav_anchor:link {
+  color: #555;
+}
+.nav_anchor_last:visited {
+  color: white;
+}
+.nav_anchor_last {
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.nav_anchor_last:link {
+  color: white;
+}
+
+.first_section_div {
+  background-color: #fdf2e9;
+  padding: 60px 0 80px 0;
+}
+.both_btn {
+  margin-bottom: 100px;
+}
+.btn_learn_more {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.learn_more {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.main_content_div {
+  display: inline-block;
+}
+.women_lunch {
+  width: 570px;
+}
+.first_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  column-gap: 60px;
+}
+.healthy_meal_heading {
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+.day_text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+.customer_img_div {
+  border: 1px solid;
+  display: inline;
+}
+
+.customer_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+}
+
+/* SECOND SECTION OF COMPANY NAMES */
+.feature_main_div{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.feature_text{
+  text-transform: uppercase;
+  color: rgb(143, 143, 143);
+  margin-bottom: 20px;
+}
+.logo_div{
+  border: 1px solid;
+  width: 1000px;
+  justify-content: space-between;
+}
+.featured_company_logo{
+  /* width: 200px; */
+  height: 30px;
+}
