@@ -34,11 +34,14 @@ body {
 .nav_anchor {
   text-decoration: none;
 }
-.nav_anchor:visited {
-  color: #e67e22;
-}
+.nav_anchor:visited,
 .nav_anchor:link {
   color: #555;
+}
+
+.nav_anchor:hover,
+.nav_anchor:active {
+  color: #e67e22;\
 }
 .nav_anchor_last:visited {
   color: white;
@@ -61,7 +64,8 @@ body {
 .both_btn {
   margin-bottom: 100px;
 }
-.btn_learn_more {
+.btn_learn_more:visited,
+.btn_learn_more:link {
   background-color: white;
   padding: 10px 20px;
   border-radius: 8px;
@@ -69,8 +73,25 @@ body {
   font-weight: bold;
   text-decoration: none;
   margin-left: 10px;
+  color: black;
 }
-.learn_more {
+
+.btn_learn_more:hover,
+.btn_learn_more:active {
+  background-color: #fdf2e9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+  /* border: 1px solid white; */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.learn_more:visited,
+.learn_more:link {
   font-size: 20px;
   font-weight: bold;
   background-color: #e67e22;
@@ -79,18 +100,31 @@ body {
   border-radius: 8px;
   text-decoration: none;
 }
+.learn_more:hover,
+.learn_more:active {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #cf711f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
 .main_content_div {
   display: inline-block;
+  width: 90%;
+  border: 1px solid;
 }
 .women_lunch {
-  width: 570px;
+  width: 100%;
 }
 .first_section {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin: 0 auto;
-  width: 1200px;
+  /* padding: 0 8rem; */
+  max-width: 80rem;
   column-gap: 60px;
 }
 .healthy_meal_heading {
@@ -116,24 +150,24 @@ body {
 }
 
 /* SECOND SECTION OF COMPANY NAMES */
-.feature_main_div{
+.feature_main_div {
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-top: 50px;
 }
-.feature_text{
+.feature_text {
   text-transform: uppercase;
   color: rgb(143, 143, 143);
   margin-bottom: 20px;
 }
-.logo_div{
+.logo_div {
   border: 1px solid;
   width: 1000px;
   justify-content: space-between;
 }
-.featured_company_logo{
+.featured_company_logo {
   /* width: 200px; */
   height: 30px;
 }
