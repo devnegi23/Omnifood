@@ -204,6 +204,7 @@ body {
   font-weight: 500;
   color: #e67e22;
   display: block;
+  margin-bottom: 1rem;
 }
 .secondary_subheading {
   font-size: 3.4rem;
@@ -234,7 +235,6 @@ body {
 }
 .step_para {
   font-size: 1.2rem;
-  /* font-weight: 700; */
   margin-bottom: 1.8rem;
   line-height: 2;
 }
@@ -266,4 +266,103 @@ body {
 }
 .app_img {
   width: 35%;
+}
+
+/* section-4 for meal descriptions */
+
+.align_text {
+  text-align: center;
+}
+.grid_meal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 6rem;
+}
+.card_component {
+  box-shadow: 0 2rem 4rem rgb(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.card_component:hover {
+  transform: translateY(-2rem);
+  box-shadow: 0 3rem 5rem rgb(0, 0, 0, 0.2);
+}
+.meal_img {
+  width: 100%;
+}
+.meal_content {
+  padding: 0 2rem 2rem 2rem;
+}
+.meal_tag {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 3px 5px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.tag_vegan {
+  background-color: #51ce66;
+}
+.tag_paleo {
+  background-color: #ffd43b;
+}
+.meal_name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+.meal_attributes li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.4rem 0;
+}
+.meal_icon {
+  height: 2rem;
+  width: 1.3rem;
+  color: #e67e22;
+}
+
+.heading_diets {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.list_attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+.check_icon {
+  color: #e67e22;
+}
+
+.link:link,
+.link:visited,
+.link:active,
+.link:hover {
+  color: #e67e22;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
+.link_div {
+  margin: 3rem auto;
 }
