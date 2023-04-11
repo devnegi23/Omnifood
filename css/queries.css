@@ -1,0 +1,74 @@
+@media (max-width: 83em) {
+  /* .first_section {
+        max-width: 80rem;
+      }
+      .healthy_meal_heading{
+        font-size: 2.2rem;
+      } */
+
+  html {
+    /* 14px so 14/16=0.875=87.5% */
+    font-size: 93.75%;
+  }
+  .secondary_subheading {
+    font-size: 2.4rem;
+  }
+  .app_main_container {
+    gap: 4rem;
+  }
+  .grid_meal {
+    gap: 5rem;
+  }
+  .first_section {
+    column-gap: 2.5rem;
+  }
+  .nav_ul_list {
+    width: 550px;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 87.5%;
+  }
+  .first_section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 4rem;
+    /* justify-content: center; */
+    justify-items: center;
+  }
+  .women_lunch {
+    width: 50%;
+  }
+  .women_div,
+  .both_btn,
+  .healthy_meal_heading,
+  .day_text {
+    text-align: center;
+  }
+  .customer_count_list {
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  .both_btn {
+    margin: 3rem;
+  }
+  .logo_div img {
+    height: 1.5rem;
+    margin-right: 2rem;
+  }
+  .step_heading{
+    font-size: 1.4rem;
+  }
+  .meal_content {
+    padding: 0 1.2rem 1.2rem 1.2rem;
+  }
+  .heading_diets {
+    font-size: 1.4rem;
+  }
+  .list_attributes {
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+}
