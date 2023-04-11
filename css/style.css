@@ -11,6 +11,11 @@ body {
   color: #555;
 }
 
+html {
+  /* 100% because default font size is 16px and (16px/16px=1=100%) */
+  font-size: 100%;
+}
+
 .container {
   max-width: 80rem;
   padding: 0 3rem;
@@ -69,6 +74,14 @@ body {
   background-color: #fdf2e9;
   padding: 60px 0 80px 0;
 }
+
+/* @media (max-width: 1200px) {
+  .first_section_div {
+    background-color: red;
+    padding: 60px 0 80px 0;
+    border: 3px dashed blue;
+  }
+} */
 .both_btn {
   margin-bottom: 100px;
 }
@@ -131,9 +144,10 @@ body {
   margin: 0 auto;
   max-width: 80rem;
   column-gap: 60px;
+  padding: 0 2rem;
 }
 .healthy_meal_heading {
-  font-size: 52px;
+  font-size: 3rem;
   margin-bottom: 30px;
 }
 .day_text {
@@ -185,6 +199,7 @@ body {
 .logo_div {
 }
 .logo_div img {
+  height: 2rem;
   margin-right: 2rem;
 }
 .logo_div img:last-child {
