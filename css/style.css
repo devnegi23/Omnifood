@@ -33,7 +33,9 @@ html {
 .logo_img {
   height: 25px;
 }
-
+.nav_container{
+  
+}
 .nav_ul_list {
   font-size: 18px;
   font-weight: bold;
@@ -69,19 +71,27 @@ html {
 .nav_anchor_last:link {
   color: white;
 }
+.nav_btn{
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.icon_mobile_nav{
+  height: 3rem;
+  width: 3rem;
+}
+
+
+.icon_mobile_nav[name="close-outline"]{
+  display: none;
+}
 
 .first_section_div {
   background-color: #fdf2e9;
   padding: 60px 0 80px 0;
 }
 
-/* @media (max-width: 1200px) {
-  .first_section_div {
-    background-color: red;
-    padding: 60px 0 80px 0;
-    border: 3px dashed blue;
-  }
-} */
 .both_btn {
   margin-bottom: 100px;
 }
